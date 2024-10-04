@@ -80,7 +80,6 @@ export default function Home() {
           <Image
             className="dark:invert"
             src={`${prefix}/images/5.webp`} 
-            src="/images/5.webp"
             alt="Next.js logo"
             width={180}
             height={38}
