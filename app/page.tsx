@@ -49,7 +49,7 @@ export default function Home() {
         <div className="flex gap-4">
           <Image
             className="dark:invert"
-            src="/images/1.webp"
+            src={`${prefix}/images/1.webp`} 
             alt="Next.js logo"
             width={180}
             height={38}
@@ -57,7 +57,7 @@ export default function Home() {
           />
           <Image
             className="dark:invert"
-            src="/images/2.webp"
+            src={`${prefix}/images/2.webp`} 
             alt="Next.js logo"
             width={180}
             height={38}
@@ -65,7 +65,7 @@ export default function Home() {
           />
           <Image
             className="dark:invert"
-            src="/images/3.webp"
+            src={`${prefix}/images/3.webp`} 
             alt="Next.js logo"
             width={180}
             height={38}
@@ -73,7 +73,7 @@ export default function Home() {
           />
           <Image
             className="dark:invert"
-            src="/images/4.webp"
+            src={`${prefix}/images/4.webp`} 
             alt="Next.js logo"
             width={180}
             height={38}
@@ -81,6 +81,7 @@ export default function Home() {
           />
           <Image
             className="dark:invert"
+            src={`${prefix}/images/5.webp`} 
             src="/images/5.webp"
             alt="Next.js logo"
             width={180}
