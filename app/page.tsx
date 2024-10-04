@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { prefix } from "./prefix"
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
 
           <Image
             className="dark:invert"
-            src="/images/logo.png"
+            src={`${prefix}/images/logo.png`} 
             alt="logo"
             width={120}
             height={120}
