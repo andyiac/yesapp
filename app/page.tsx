@@ -7,7 +7,6 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
 
         <h2> prifix is: ${prefix}</h2>
-        <h2> prifix is: ${process.env.BASE_PATH}</h2>
 
           <Image
             className="dark:invert"
